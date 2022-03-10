@@ -1,0 +1,22 @@
+{
+    "name": "dell14/formacao_php",
+    "description": "forma\u0000ao php com composer",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Dell14\\FormacaoPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Odinilson Gomes",
+            "email": "odinilsongomes4@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2.0"
+    }
+}
